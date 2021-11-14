@@ -1,0 +1,73 @@
+.history-page{
+    overflow-x: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBKvJ2wQB0vqdWeXGpR0HuYxw1U_oPEO6vbQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.history-page h2, h4{
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.history-page table{
+    margin-right:20px;
+    width: 60%;
+}
+.history-page table,th,tr,td{
+    border: 1px solid rgb(8, 8, 8);
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    padding-left:30px;
+    text-transform: capitalize;
+}
+table a{
+    color: rgb(3, 165, 206);
+}
+
+.history-page img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.history-pag{
+    overflow-x: auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBKvJ2wQB0vqdWeXGpR0HuYxw1U_oPEO6vbQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:99px;
+    margin-right:99px;
+}
+.history-pag h2, h4{
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.history-pag table{
+    margin-right:20px;
+    width: 60%;
+}
+.history-pag table,th,tr,td{
+    border: 1px solid rgb(8, 8, 8);
+    border-collapse: collapse;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    padding-left:30px;
+    text-transform: capitalize;
+}
+table a{
+    color: rgb(3, 165, 206);
+}
+
+.history-pag img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
