@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Poornimakotari.github.io/BookFood",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -15,8 +16,8 @@
     "axios": "^0.21.1",
     "bootstrap": "^5.1.1",
     "ejs": "^3.1.6",
+    "master": "0.0.14",
     "materialize-css": "^1.0.0",
-    "paypal-rest-sdk": "^1.8.1",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.6",
     "react-dom": "^17.0.2",
@@ -31,6 +32,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "master build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
